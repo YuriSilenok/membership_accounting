@@ -1,0 +1,16 @@
+branches:
+  only:
+  - main
+  - dev
+  - /^issue-\d+$/
+language: android
+dist: trusty
+android:
+  components:
+    - build-tools-26.0.2
+    - android-26
+    - extra
+  licenses:
+    - 'android-sdk-preview-license-52d11cd2'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
