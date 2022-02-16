@@ -5,6 +5,7 @@ branches:
   - /^issue-\d+$/
 language: android
 dist: trusty
+jdk: openjdk11
 android:
   components:
     - build-tools-26.0.2
