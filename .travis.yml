@@ -5,6 +5,8 @@ branches:
   - /^issue-\d+$/
 language: android
 dist: trusty
+before_script:
+  - gradle wrapper
 android:
   components:
     - build-tools-26.0.2
