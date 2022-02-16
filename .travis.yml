@@ -5,9 +5,9 @@ branches:
   - /^issue-\d+$/
 language: android
 dist: trusty
-jdk: openjdk11
+jdk: openjdk10
 script:
-  - jdk_switcher use openjdk11
+  - jdk_switcher use openjdk10
   - # do stuff with OpenJDK 10
   - wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
   - chmod +x $TRAVIS_BUILD_DIR/install-jdk.sh
