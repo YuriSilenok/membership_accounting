@@ -5,3 +5,4 @@ branches:
   - /^issue-\d+$/
 language: android
 dist: trusty
+jdk: openjdk11
