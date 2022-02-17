@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">membership_accounting</string>
+    <string name="welcome">Welcome</string>
+    <string name="Autorization">Авторизоваться</string>
 </resources>
